@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    background:  #1F2937;
+}
+.container{
+    max-width:600px;
+    /* margin-top:115px;
+    margin-left:52px; */
+    /* margin-right:144px; */
+}
+.heading{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+
+    margin-bottom: 10px;
+}
+.headingspan{
+    color:#4ADF86
+}
+.about{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+.question{
+    color:white;
+    margin-top: 80px;
+    font-family: 'Karla';
+}
+.lengthdecor
+{
+    color:#4ADF86;
+    text-decoration:underline;
+    /* text-decoration-color: green; */
+}
+.gen-input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:1.25rem;
+}
+.lenofpas{
+    border-radius: 10px;
+    height: 70px;
+    width: 80px;
+    font-size:30px;
+    font-family: 'Inter';
+    font-weight: bold;
+    background: #1C1C1C;;
+    color:white;
+    text-align: center;
+}
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color:white;
+    border:none;
+    border-radius: 6px;
+}
+.generatebtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    /* margin-left: 52px; */
+    margin-top: 21px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+.line{
+    border: 1px solid #2F3E53;
+    margin-top:35px;
+}
+#pass1,
+#pass2{
+    font-family: 'Inter';
+    /* width:17.5rem; */
+    /* height: 2.5rem; */
+    background:#273549;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    color: #55F991;
+    display:inline;
+    padding: 10px;
+}
+.psw-wrapper{
+    display: flex;
+    /* flex-direction: column; */
+    margin-top:1.25rem; 
+    gap:1rem;
+}
+#messagetoclick{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size:1.5rem;
+}
